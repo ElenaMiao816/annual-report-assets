@@ -4453,7 +4453,7 @@ components.html("""
 # 注意：确保 Digi.png 文件和 app.py 在同一个文件夹里
 try:
     st.logo(
-        "picture/Digi.png",       # ✨ 修改点：加上 .png 后缀
+        "Digi.png",       # ✨ 修改点：加上 .png 后缀
         icon_image="Digi.png" # ✨ 修改点：加上 .png 后缀
     )
 except Exception as e:
