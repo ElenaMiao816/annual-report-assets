@@ -4931,7 +4931,7 @@ if not st.session_state['logged_in']:
                 st.session_state.update({'logged_in':True, 'user_role':u_type, 'api_key':api_input, 'base_url':d_url, 'model_name':d_mod})
                 st.rerun()
 
-        st.markdown("<div style='text-align:center; color:#94A3B8; font-size:11px; margin-top:30px; letter-spacing:1px;'>系统版本：v3.0 (Alpha) © 2026<br>Developed by 林友沐Bella@KPMG</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align:center; color:#94A3B8; font-size:11px; margin-top:30px; letter-spacing:1px;'>系统版本：v3.0 (Alpha) © 2026<br>Developed by ElenaMiao816@KPMG</div>", unsafe_allow_html=True)
 
     # 阻止程序继续往下渲染主系统界面
     st.stop()
